@@ -1,0 +1,93 @@
+body {
+	font-family: sans-serif;
+}
+
+.header {
+	background-color: #5ABCFF;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+	background-color: black;
+}
+
+.fnt {
+	font-size: 16px;
+	background-color: black;
+	height: 40px;
+}
+
+ul li {
+	z-index: 999;
+	float: left;
+	width: 15%;
+	height: 40px;
+	background-color: black;
+	line-height: 40px;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	background-color: black;
+	display: block;
+	font-weight: bold;
+}
+
+ul li a:HOVER {
+	background-color: #5ABCFF;
+	color: #000;
+	width: 100%;
+}
+
+ul li ul li {
+	display: none;
+	width: 100%;
+}
+
+ul li:HOVER ul li {
+	display: block;
+	width: 100%;
+}
+
+#container {
+	background-color: #5ABCFF;
+	width: 100%;
+}
+
+.form-title {
+	color: #1A7AB2;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.error {
+	color: red;
+}
+
+.btn-size{
+	width:100px;
+}
+
+.row-margin{
+	margin-top: 6px;
+}
+.div{
+	padding-top:20px;
+	padding-bottom: 50px;
+}
+
+#logout{
+   color: #FF0000;
+}
+#logout:HOVER {
+    color: #FF0000;
+    background-color: black
+}

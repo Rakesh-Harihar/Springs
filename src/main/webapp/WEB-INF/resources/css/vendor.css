@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-container {
+	float: right;
+}
+
+.search-container input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border-radius: 8px;
+	border-color: #3399ff;
+	width: 500px;
+}
+
+.search-container button {
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	margin-left: 5px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+}
+
+.search-container button:hover {
+	background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+	.topnav .search-container {
+		float: none;
+	}
+	.search-container input[type=text], .search-container button {
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+	}
+	.search-container input[type=text] {
+		border: 1px solid #ccc;
+	}
+}
+
+.tab-container {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#myInput {
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	border-color: #3399ff;
+}
+
+#myTable {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ddd;
+	font-size: 14px;
+}
+
+#myTable th, #myTable td {
+	text-align: left;
+	padding: 12px;
+}
+
+#myTable tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+	background-color: #f1f1f1;
+}
+
+#myTable h2 {
+	text-align: center;
+}
+
+.search {
+	margin-top: 10px;
+}
+
+.details {
+	font-size: 1.2em;
+}
+
+.open {
+	color: #FFA500;
+}
+
+.accepted {
+	color: #008000;
+	font-weight: bold;
+}
+
+.rejected {
+	color: #FF0000;
+	font-weight: bold;
+}

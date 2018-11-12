@@ -1,0 +1,15 @@
+
+#container-main {
+	margin-top: 150px;
+}
+
+.rect-box {
+	border-style: solid;
+	background-color: #5ABCFF;
+}
+
+.title {
+	background-color: #1A7AB2;
+	color: #fff;
+	font-size: 18;
+}
